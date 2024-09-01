@@ -11,6 +11,13 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+#root {
+  margin: 0 auto;
+  text-align: center;
 }
 
 a {
@@ -23,12 +30,13 @@ a:hover {
 }
 
 body {
-  margin: 24px;
+  /* padding: 24px; */
   display: flex;
   /* place-items: center; */
   min-height: 100vh;
 color: black;
 font-size: 18px;
+background-color: #f1f0f0;
 }
 
 h1 {
